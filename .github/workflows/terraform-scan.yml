@@ -1,0 +1,28 @@
+name: Terraform Security Scan
+
+on:
+  push:
+    branches: ["staging"]
+  pull_request:
+    branches: ["prod"]
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Install Trivy
+        run: |
+          curl -sfL https://raw.githubusercontent.com/aquasecurity/trivy/main/contrib/install.sh | sh -s -- -b /usr/local/bin
+
+      - name: Install TFLint
+        run: |
+          curl -s https://raw.githubusercontent.com/terraform-linters/tflint/master/install_linux.sh | bash
+
+      - name: Trivy Scan
+        run: trivy config .
+
+      - name: TFLint Scan
+        run: tflint --init && tflint
