@@ -12,7 +12,7 @@ This project demonstrates the use of DevOps practices like Terraform, Ansible, a
   - Website Image Storage
 
 ## Deployment Steps
-1. Clone the Repository
+1. Create the Repository
 2. Initialize Terraform
 3. Plan Terraform Deployment
 4. Apply Terraform Deployment
@@ -28,7 +28,6 @@ This project demonstrates the use of DevOps practices like Terraform, Ansible, a
 - Force push & delete restricted
 
 ## Clean Up
-
 
 ## Authors
 - Sree Hari
