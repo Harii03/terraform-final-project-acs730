@@ -25,19 +25,19 @@ This project demonstrates the use of DevOps practices like Terraform, Ansible, a
 
 ## GitHub Actions Setup
 - **`terraform-scan.yml`** → Runs Trivy & TFLint on push to staging and PR to prod.
-- Runs Trivy and TFLint on every push to the staging branch
-- Automatically triggers when a PR is created to the prod branch
-- Helps ensure code is secure and follows Terraform best practices
+  Runs Trivy and TFLint on every push to the staging branch
+  Automatically triggers when a PR is created to the prod branch
+  Helps ensure code is secure and follows Terraform best practices
 
 - **`terraform-deploy.yml`** → Deploys Terraform automatically when code is pushed to prod branch.
-- Runs when code is merged into the prod branch
-- Automates
-- Simulates a full CI/CD flow
+  Runs when code is merged into the prod branch
+  Automates
+  Simulates a full CI/CD flow
 
 ## Branch Protection Rules
-- Prod branch protected from direct push
-- PR required for merge
-- Force push & delete restricted
+  Prod branch protected from direct push
+  PR required for merge
+  Force push & delete restricted
 
 ## Clean Up
 - terraform destroy
