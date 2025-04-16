@@ -1,3 +1,5 @@
+# Added by Sree Hari to confirm scan works
+
 name: Terraform Security Scan
 
 on:

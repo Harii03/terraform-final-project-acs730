@@ -3,6 +3,8 @@
 ## Project Overview
 This project demonstrates the use of DevOps practices like Terraform, Ansible, and GitHub Actions for automating infrastructure deployment in AWS for a Two-Tier Web Application.
 
+# Updated region info for test commit
+
 ## Pre-requisites
 - AWS Account
 - Terraform Installed
