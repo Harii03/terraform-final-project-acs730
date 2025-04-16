@@ -71,6 +71,7 @@ This project demonstrates the use of DevOps practices like Terraform, Ansible, a
 │   ├── terraform-scan.yml
 │   └── terraform-deploy.yml
 
+```
 
 ## Summary
 
