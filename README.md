@@ -35,9 +35,9 @@ This project demonstrates the use of DevOps practices like Terraform, Ansible, a
   Simulates a full CI/CD flow
 
 ## Branch Protection Rules
-Prod branch protected from direct push
-PR required for merge
-Force push & delete restricted
+- Prod branch protected from direct push
+- PR required for merge
+- Force push & delete restricted
 
 ## Clean Up
 - terraform destroy
