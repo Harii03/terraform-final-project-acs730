@@ -44,6 +44,7 @@ This project demonstrates the use of DevOps practices like Terraform, Ansible, a
 
 ## Project Structure
 
+```plaintext
 .
 ├── prod/
 │   ├── main.tf
