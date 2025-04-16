@@ -30,6 +30,7 @@ This project demonstrates the use of DevOps practices like Terraform, Ansible, a
 - Force push & delete restricted
 
 ## Clean Up
+- terraform destroy
 
 ## Authors
 - Sree Hari
